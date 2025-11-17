@@ -9,6 +9,6 @@ int main() {
 		y++;
 	}
 	double z = m * x / y;
-	cout << "每天平均花" << z << "元" << endl;
+	cout << "脙驴脤矛脝陆戮霉禄篓" << z << "脭陋" << endl;
 	return 0;
 }
