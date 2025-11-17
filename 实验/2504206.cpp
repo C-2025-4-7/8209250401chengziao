@@ -1,17 +1,17 @@
 #include<iostream>
 using namespace std;
-int main6() {
+int main() {
 	int a, b;
 	cin >> a >> b;
 	for (int x = (a > b ? a : b);x>=1; x--){
 		if (a % x == 0 && b % x == 0){
-			cout <<"aÓëbµÄ×î´ó¹«Ô¼ÊýÎª" << x << endl;
+			cout <<"aä¸Žbçš„æœ€å¤§å…¬çº¦æ•°ä¸º" << x << endl;
 			break;
 		}
 	}
 	for (int y = (a < b ? a : b); y <= a * b; y++){
 		if (y % a == 0 && y % b == 0) {
-			cout << "aÓëbµÄ×îÐ¡¹«±¶ÊýÎª" << y << endl;
+			cout << "aä¸Žbçš„æœ€å°å…¬å€æ•°ä¸º" << y << endl;
 			break;
 		}
 	}
