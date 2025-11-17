@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main4(){
+int main(){
 	int x, y;
 	char ch;
 	cin >> x >> ch >> y;
@@ -18,7 +18,7 @@ int main4(){
 			cout << x / y << endl;
 		}
 		else {
-			cout << "³ýÊý²»¿ÉÒÔÎª0" << endl;
+			cout << "é™¤æ•°ä¸å¯ä»¥ä¸º0" << endl;
 		}
 	}
 	else if (ch == '%') {
@@ -26,11 +26,11 @@ int main4(){
 			cout << x % y << endl;
 		}
 		else {
-			cout << "È¡Ä£Ê±³ýÊý²»¿ÉÒÔÎª0" << endl;
+			cout << "å–æ¨¡æ—¶é™¤æ•°ä¸å¯ä»¥ä¸º0" << endl;
 		}
 	}
 	else {
-		cout << "ÔËËã·û·Ç·¨" << endl;
+		cout << "è¿ç®—ç¬¦éžæ³•" << endl;
 	}
 	return 0;
 }
