@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-int main5() {
+int main() {
 	string str;
 	int l = 0, n = 0, s = 0, o = 0;
 	getline(cin, str);
@@ -19,9 +19,9 @@ int main5() {
 			o++;
 		}
 	}
-	cout << "Ó¢ÎÄ×ÖÄ¸µÄÊıÁ¿Îª" << l << "¸ö" << endl;
-	cout << "Êı×Ö×Ö·ûµÄÊıÁ¿Îª" << n << "¸ö" << endl;
-	cout << "¿Õ¸ñµÄÊıÁ¿Îª" << s << "¸ö" << endl;
-	cout << "ÆäËû×Ö·ûµÄÊıÁ¿Îª" << o << "¸ö" << endl;
+	cout << "è‹±æ–‡å­—æ¯çš„æ•°é‡ä¸º" << l << "ä¸ª" << endl;
+	cout << "æ•°å­—å­—ç¬¦çš„æ•°é‡ä¸º" << n << "ä¸ª" << endl;
+	cout << "ç©ºæ ¼çš„æ•°é‡ä¸º" << s << "ä¸ª" << endl;
+	cout << "å…¶ä»–å­—ç¬¦çš„æ•°é‡ä¸º" << o << "ä¸ª" << endl;
 	return 0;
 }
