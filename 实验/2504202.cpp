@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main2()
+int main()
 {
 	double x;
 	cin >> x;
