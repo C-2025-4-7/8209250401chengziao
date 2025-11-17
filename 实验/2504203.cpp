@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main3()
+int main()
 {
 	int x, y, z;
 	cin >> x >> y >> z;
@@ -9,16 +9,16 @@ int main3()
 		cout << x + y + z << endl;
 		if ((x == y) || (y == z) || (x == z))
 		{
-			cout << "´ËÈý½ÇÐÎÎªµÈÑüÈý½ÇÐÎ" << endl;
+			cout << "æ­¤ä¸‰è§’å½¢ä¸ºç­‰è…°ä¸‰è§’å½¢" << endl;
 		}
 		else 
 		{
-			cout << "´ËÈý½ÇÐÎ²»ÊÇµÈÑüÈý½ÇÐÎ" << endl;
+			cout << "æ­¤ä¸‰è§’å½¢ä¸æ˜¯ç­‰è…°ä¸‰è§’å½¢" << endl;
 		}
 	}
 	else
 	{
-		cout << "²»ÄÜ¹¹³ÉÈý½ÇÐÎ" << endl;
+		cout << "ä¸èƒ½æž„æˆä¸‰è§’å½¢" << endl;
 	}
 	return 0;
 }
